@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/header :: common-header"/>
+<head th:replace="common/header :: navbar"/>
+<body ng-app="indexApp">
+<div class="container" ng-controller="indexAppCtrl">
+<h1>Hello Spring</h1>
+    <div th:replace="common/header :: body-bottom-scripts"/>
+    <div th:replace="common/angular :: angular"></div>
+    <script type="text/javascript" src="../js/indexApp.js"
+            th:src="@{/js/indexApp.js}"></script>
+</div>
+</body>
+</html>

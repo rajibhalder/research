@@ -1,0 +1,19 @@
+body {
+	background-color: transparent;
+}
+
+html {
+	background: url("/images/bg.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #6699FF;
+}
